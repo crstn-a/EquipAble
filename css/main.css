@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;                     /* to set the whole content to the center*/
+    max-width: 1200px;                      /* to set the whole content to the center*/
     margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;        /* to separate the logo and the nav ul*/
+    justify-content: space-between;         /* to separate the logo and the nav ul*/
     align-items: center;
 }
 
@@ -57,20 +57,77 @@ nav a.active:before {
 
 main {
     display: flex;                          /* to separate the left-col and right-col */
-    gap: 50em;                         
-    margin-top: 5em;                        /* to have a margin between the main element and the header section */
+    gap: 25em;                              /* to initialize the center gap of the left-col and right-col */
+    margin-top: 10em;                        /* to have a margin between the main element and the header section */
 }
 
 .left-col {
-    width: 60%;                             /* the scope of the left column to the total space of the main parent container */
+    width: 50%;                            /* the scope of the left column to the total space of the main parent container */
 }
 
 .right-col {
-    flex-grow: 1;
+    flex-grow: 1;                           /* to utilize the remaining width available on the main section */
 }
 
 h1 {
-    font-size: 3.2rem;     
+    font-size: 3.5rem;     
     font-family: 'Source-Serif-4';       
-    font-weight: normal;    
+    font-weight: normal;  
+    margin: 0;  
+}
+
+.sub-head {
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    gap: 2em;
+}
+
+.cta-buttons{
+    margin: 5em 0;
+}
+
+.cta-buttons, .secondary-cta {
+    display: flex;
+    gap: 2em;                              
+}
+
+.primary-cta {
+    background-color: #F1E2D1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 2.0em;
+    padding: 1em;
+    margin-bottom: 50px;
+}
+
+.secondary-cta {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    display: block;                         /* to set the text on a single line */
+    margin-top: 22px;
+}
+
+.secondary-cta svg {
+    width: 20px;
+}
+
+.news {
+    display: flex;
+    gap: 3em;
+    padding: 2em;                           /* to set the space around the content*/
+    border: .5px solid black;
+    border-radius: 2.0em;
+}
+
+.news-title {
+    font-size: 3.2rem;
+    font-family: 'Pacifico';
+}
+
+.news-details {
+    font-size: 1.8rem;
+    margin-top: 35px;                       /* to set the details align with the title*/
 }
