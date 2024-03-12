@@ -8,13 +8,15 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1200px;                      /* to set the whole content to the center*/
     margin: 0 auto;
 }
 
+/* Header Section, the logo and the navigation bar */
+
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;        /* to separate the logo and the nav ul*/
     align-items: center;
 }
 
@@ -28,7 +30,25 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 4.1em;
+    list-style-type: none;                  /* to get rid off the bullet points on the ul*/
+    display: flex;                          /* to set the text next to each other*/
+    gap: 4.1em;                             /* to set the gap between the nav ul*/
+    margin: 0;
+}
+
+nav a {                                     
+    text-decoration: none;                  /* to get rid off the underline on a nav a ul */
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;                      /* figma font size: 16, css: 1.6rem */
+    position: relative;                     /* parent element of the pseudo-element */
+}
+
+nav a.active:before {                       
+    position: absolute;                     /* pseudo-element is relative to the parent */
+    content: "";
+    width: 35%;                             /* the width line under the 'Home Nav'*/
+    height: 1px;
+    border-bottom: 2px solid black;
+    bottom: -3px;                           /* to set the line on the bottom of the 'Home Nav' */
 }
