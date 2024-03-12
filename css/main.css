@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;                      /* to set the whole content to the center*/
+    max-width: 1200px;                     /* to set the whole content to the center*/
     margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@ header {
     align-items: center;
 }
 
-.logo {
+.logo {                                    
     width: auto;
     height: 50px;
 }
@@ -49,6 +49,28 @@ nav a.active:before {
     content: "";
     width: 35%;                             /* the width line under the 'Home Nav'*/
     height: 1px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid black;       
     bottom: -3px;                           /* to set the line on the bottom of the 'Home Nav' */
+}
+
+/* Hero Section, the main element, right-col and left-col*/
+
+main {
+    display: flex;                          /* to separate the left-col and right-col */
+    gap: 50em;                         
+    margin-top: 5em;                        /* to have a margin between the main element and the header section */
+}
+
+.left-col {
+    width: 60%;                             /* the scope of the left column to the total space of the main parent container */
+}
+
+.right-col {
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 3.2rem;     
+    font-family: 'Source-Serif-4';       
+    font-weight: normal;    
 }
