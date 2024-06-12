@@ -1,6 +1,6 @@
 - This repository contains only a Hero Section to enhance my skills using HTML and CSS, also being able to practice my usage of Git and GitHub. 
 
-- I start from figma, this is the figma design: https://www.figma.com/design/u4lN4AS0qzxkjXyQGwUgss/EquipAble?t=pF8jsWWiqwsh5494-1
+- The figma design: https://www.figma.com/design/u4lN4AS0qzxkjXyQGwUgss/EquipAble?t=pF8jsWWiqwsh5494-1
 
 - The image from the right that contains some boxes and rectangle, I use it to visualize the columns and rows of this Landing Page.
 
