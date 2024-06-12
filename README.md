@@ -1,4 +1,6 @@
-- This repository contains only a Hero Section to enhance my skills using HTML and CSS, also being able to practice my usage of Git and GitHub. 
+- This repository contains only a Hero Section to enhance my skills using HTML and CSS, also being able to practice my usage of Git and GitHub!
+
+- Live site: https://crstn-a.github.io/EquipAble/
 
 - The figma design: https://www.figma.com/design/u4lN4AS0qzxkjXyQGwUgss/EquipAble?t=pF8jsWWiqwsh5494-1
 
